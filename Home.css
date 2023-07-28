@@ -1,0 +1,66 @@
+ .port{
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-style: oblique;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 3px;
+        color:var(--gray-60,#a40aec)
+}
+.dis{
+text-align: justify;    
+width: 200px;
+color: var(--gray-60, #080216);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Circular Std;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 80%; /* 21px */
+letter-spacing: -0.3px;
+}
+.sid{
+   
+         display: flex; 
+        /* align-items: center; */
+        /* flex-direction: row-reverse; */
+        margin-left: 450px;
+        padding: 40px;
+        border-radius: 8%;
+        box-shadow: 0 4px 8px rgba(85, 79, 2, 0.1);
+        background-color: #ae85bb;
+        width: 250px;
+        height:250px;
+       
+    
+}
+.name-info{
+    flex:1;
+}
+.oid{
+    width: 300px;
+    border-radius: 0%;
+}
+.pid{
+    align-items: end;
+    width: 200px;
+    border-radius: 0%;
+}
+
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:40px ;
+}
+.ig{
+    display: flex;
+    margin-left: 450px;
+    padding: 10px;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px rgba(85, 79, 2, 0.1);
+    background-color: #dccde0;
+    width: 70px;
+    height:40px;
+}

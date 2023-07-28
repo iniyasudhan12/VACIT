@@ -1,0 +1,58 @@
+
+.header {
+   background-color: #f0f0f0;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.lnavigation {
+  display: flex;
+  align-items: center;
+}
+
+.lnavigation button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  font-size: 15px;
+  border: none;
+  background-color: #e910a8;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 20px;
+  flex-wrap: wrap;
+  width: 30px;
+  
+  height: 30px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 15px;
+  border: none;
+  background-color: #fcf2f2;
+  cursor: pointer;  
+ 
+
+}
+body{
+   /* background-image: url('https://img.freepik.com/free-vector/watercolor-abstract-purple-background_23-2149120778.jpg');  */
+  background-size: cover;
+  
+}
+
+
+
